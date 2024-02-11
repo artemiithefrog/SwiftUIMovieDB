@@ -37,6 +37,8 @@
 		163B230A2B6FE65B00E0C3B0 /* MovieSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B23062B6FE65B00E0C3B0 /* MovieSection.swift */; };
 		163B230D2B6FE6ED00E0C3B0 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B230C2B6FE6EC00E0C3B0 /* SafariView.swift */; };
 		163B230F2B6FE70A00E0C3B0 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B230E2B6FE70A00E0C3B0 /* ActivityIndicatorView.swift */; };
+		167E7E692B794CC20078D269 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167E7E682B794CC20078D269 /* NowPlaying.swift */; };
+		16AA27C82B7418B50001B7F5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B22E82B6FE58C00E0C3B0 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,7 @@
 		163B23062B6FE65B00E0C3B0 /* MovieSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSection.swift; sourceTree = "<group>"; };
 		163B230C2B6FE6EC00E0C3B0 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		163B230E2B6FE70A00E0C3B0 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		167E7E682B794CC20078D269 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 				163B22EA2B6FE5CF00E0C3B0 /* MovieThumbnailView.swift */,
 				163B22D32B6FE56C00E0C3B0 /* Overlay Views */,
 				163B22E62B6FE58C00E0C3B0 /* UIKitViews */,
+				167E7E682B794CC20078D269 /* NowPlaying.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,8 +171,8 @@
 		163B22E62B6FE58C00E0C3B0 /* UIKitViews */ = {
 			isa = PBXGroup;
 			children = (
-				163B230C2B6FE6EC00E0C3B0 /* SafariView.swift */,
 				163B22E82B6FE58C00E0C3B0 /* SearchBar.swift */,
+				163B230C2B6FE6EC00E0C3B0 /* SafariView.swift */,
 				163B230E2B6FE70A00E0C3B0 /* ActivityIndicatorView.swift */,
 			);
 			path = UIKitViews;
@@ -293,6 +297,8 @@
 				163B23072B6FE65B00E0C3B0 /* Movie+Stub.swift in Sources */,
 				163B22F42B6FE5CF00E0C3B0 /* LoadingView.swift in Sources */,
 				163B22DC2B6FE56C00E0C3B0 /* EmptyPlaceholderView.swift in Sources */,
+				16AA27C82B7418B50001B7F5 /* SearchBar.swift in Sources */,
+				167E7E692B794CC20078D269 /* NowPlaying.swift in Sources */,
 				163B22DA2B6FE56C00E0C3B0 /* RetryView.swift in Sources */,
 				163B22DB2B6FE56C00E0C3B0 /* DataFetchPhaseOverlayView.swift in Sources */,
 				163B22CA2B6FE54400E0C3B0 /* MovieHomeState.swift in Sources */,

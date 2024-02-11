@@ -11,12 +11,16 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView { MovieHomeView() }
-            .tabItem { Label("Home", systemImage: "film")}
-            .tag(0)
+                .tabItem { Label("Home", systemImage: "film")}
+                .tag(0)
             
             NavigationView { MovieSearchView() }
-            .tabItem { Label("Search", systemImage: "magnifyingglass")}
-            .tag(1)
+                .tabItem { Label("Search", systemImage: "magnifyingglass")}
+                .tag(1)
+            
+            NavigationView { NowPlaying() }
+                .tabItem { Label("Now Playing", systemImage: "triangleshape") }
+                .tag(2)
         }
     }
 }

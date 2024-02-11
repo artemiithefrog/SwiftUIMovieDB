@@ -57,7 +57,5 @@ struct DataFetchPhaseOverlayView_Previews: PreviewProvider {
                 print("Retry")
             }
         }
-        
-        
     }
 }
